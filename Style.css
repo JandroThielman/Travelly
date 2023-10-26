@@ -1,0 +1,952 @@
+@font-face {
+    font-family: Pattaya;
+    src: url("./Fonts/Pattaya-Regular.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("./Fonts/Poppins-Regular.ttf");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Travelly_Nav{
+    background-color: #131c27;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 98.93vw;
+    height: 12vh;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.Logo{
+    margin: 0;
+    color: white;
+    font-family: Pattaya;
+    margin-left: 5.5vw;
+}
+
+.Nav_ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    margin-left: 45vw;
+}
+
+li a{
+    padding: 1.85rem 3rem 1.85rem 3rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    display: flex;
+}
+
+li:hover{
+    background-color: #4c6e97;
+}
+
+.Home{
+    width: 98.93vw;
+    height: 88vh;
+    background-image: url(./img/landing-page.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+}
+
+.Home1{
+    margin: 0;
+    font-size: 3.5rem;
+}
+
+.Home2{
+    padding-top: 4vh;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.Home3{
+    color: white;
+    background-color: #4c6e97;
+    font-size: 1rem;
+    margin-top: 4vh;
+    padding: 1rem 3rem 1rem 3rem;
+    border: 0 none transparent ;
+}
+
+.Home3:hover{
+    background-color: #131c27;
+}
+
+#Location{
+    width: 98.93vw;
+    height: 100vh;
+    color: white;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Location1{
+    width: 98.93vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+}
+
+.Location2{
+    margin: 0;
+    width: 24.5vw;
+    border-bottom: .10em solid white;
+    color: white;
+    font-size: 3rem;
+    margin-left: 10vw;
+}
+
+.Location3{
+    margin-top: 7vh;
+    color: white;
+    font-size: 2rem;
+    margin-left: 10vw;
+    z-index: 1;
+}
+
+.Gradient{
+    width: 98.93vw;
+    height: 100vh;
+    position: absolute;
+    background-image: linear-gradient(360deg, #ececec, #bbbbbb, #808080);
+    z-index: -1;
+}
+
+#Benefits{
+    height: 100vh;
+    width: 98.93vw;
+    font-family: Poppins;
+}
+
+.Benefits1{
+    height: 25vh;
+    width: 98.93vw;
+    background-color: #131c27;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.Benefits1M{
+    margin: 0;
+    font-size: 3rem;
+}
+
+.Benefits1S{
+    font-size: 1rem;
+}
+
+.Benefits2{
+    height: 75vh;
+    width: 98.93vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Benefits2-1{
+    width: 22vw;
+    height: 60vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Benefits2-1T{
+    height: 13vh;
+    width: 22vw;
+    background-color: #131c27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Benefits2-1TI{
+    width: 8vw;
+    height: 8vh;
+}
+
+.Benefits2-1B{
+    height: 47vh;
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.B1{
+    margin: 0;
+    padding-top: 3vh;
+    font-size: 2rem;
+}
+
+.B2{
+    margin-top: 3vh;
+    font-size: 1.2rem;
+    width: 20vw;
+    text-align: center;
+}
+
+#Contact{
+    height: 100vh;
+    width: 98.93vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contact1{
+    width: 98.93vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.Gradient2{
+    width: 98.93vw;
+    height: 100vh;
+    position: absolute;
+    background-image: linear-gradient(360deg, #ececec, #bbbbbb, #808080);
+    z-index: -2;
+}
+
+.Contact2{
+    height: 70vh;
+    width: 60vw;
+    background-color: #131c27e2;
+    z-index: 1;
+    border-radius: 2rem;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact2-1 {
+    margin: 0;
+    font-size: 3.5rem;
+    color: white;
+    padding-top: 5vh;
+}
+
+.Contact2-2 {
+    margin: 0;
+    font-size: 3.5rem;
+    color: white;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.Contact2-2 {
+    margin: 0;
+    font-size: 3.5rem;
+    color: white;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.label1{
+    color: white;
+    font-size: 1.5rem;
+    padding-right: 2.5vw;
+}
+
+label{
+    color: white;
+    font-size: 1.5rem;
+    padding-right: 2vw;
+}
+
+input{
+    font-size: 2rem;
+}
+
+.Contact2-3{
+    margin-top: 23.5vh;
+}
+
+.Submit{
+    color: white;
+    background-color: #4c6e97;
+    width: 60vw;
+    height: 8vh;
+    border: 0;
+    border-radius: 0 0 2rem 2rem;
+}
+
+.Submit:hover{
+    border: .1rem solid white;
+}
+
+.Travelly_Footer{
+    height: 10vh;
+    width: 98.93vw;
+    background-color: #131c27;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.Footer1{
+    margin: 0;
+    color: white;
+    font-family: Poppins;
+    margin-right: 15vw;
+}
+
+.footerIMG{
+    filter: brightness(50%);
+}
+
+.footerIMG:hover{
+    filter: brightness(100%);
+}
+
+@media only screen and (max-width: 1040px) {
+    .Travelly_Nav{
+        width: 100vw;
+    }
+    
+    .Nav_ul{
+        margin-left: 30.5vw;
+    }
+
+    li a{
+        padding: 1.54rem 3rem 1.54rem 3rem;
+    }
+
+    .Home{
+        padding-top: 5vh;
+        width: 100vw;
+    }
+
+    .Location1{
+        width: 100vw;
+    }
+
+    .Gradient{
+        width: 100vw;
+    }
+
+    .Location3{
+        margin-top: 10vh;
+    }
+
+    .Benefits1{
+        width: 100vw;
+    }
+
+    .Benefits2{
+        width: 100vw;
+    }
+
+    .Benefits2-1T{
+        width: 30vw;
+    }
+    
+    .Benefits2-1{
+        width: 30vw;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .Benefits2-1B {
+        height: 47vh;
+        width: 30vw;
+    }
+
+    .B2 {
+        font-size: 1rem;
+        width: 28vw;
+        height: 33.5vh;
+        margin-bottom: 0;
+    }
+
+    #Contact {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Gradient2 {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        background-image: linear-gradient(360deg, #ececec, #bbbbbb, #808080);
+        z-index: -2;
+    }
+
+    .Contact1 {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .Travelly_Footer {
+        height: 10vh;
+        width: 100vw;
+        background-color: #131c27;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .Travelly_Nav{
+        width: 100vw;
+    }
+    
+    .Nav_ul{
+        margin-left: 10vw;
+    }
+
+    li a{
+        padding: 1.53rem 3rem 1.53rem 3rem;
+    }
+
+    .Home{
+        width: 104.2vw;
+        background-image: url(./img/landing-page.jpg);
+    }
+
+    .Location1{
+        width: 100vw;
+    }
+
+    .Gradient{
+        width: 100vw;
+    }
+
+    .Location2{
+        margin: 0;
+        width: 39.5vw;
+        border-bottom: .10em solid white;
+        color: white;
+        font-size: 2.5rem;
+        margin-left: 10vw;
+    }
+    
+    .Location3{
+        margin-top: 7vh;
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 10vw;
+        margin-top: 10vh;
+        z-index: 1;
+    }
+
+    .Benefits1{
+        width: 100vw;
+    }
+
+    .Benefits2{
+        width: 100vw;
+    }
+
+    .Benefits2-1T{
+        width: 30vw;
+    }
+    
+    .Benefits2-1{
+        width: 30vw;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .Benefits2-1B {
+        height: 47vh;
+        width: 30vw;
+    }
+
+    .Benefits1M{
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .B1{
+        margin: 0;
+        padding-top: 1vh;
+        font-size: 2rem;
+    }
+
+    .B2 {
+        font-size: .8rem;
+        width: 28vw;
+        height: 37.9vh;
+        margin-bottom: 0;
+        margin-top: .5vh;
+    }
+
+    .Contact2 {
+        height: 70vh;
+        width: 60vw;
+        background-color: #131c27e2;
+        z-index: 1;
+        border-radius: 2rem;
+        font-family: Poppins;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .label1{
+        color: white;
+        font-size: 1rem;
+        padding-right: 2.5vw;
+    }
+    
+    label{
+        color: white;
+        font-size: 1rem;
+        padding-right: 2vw;
+    }
+    
+    input{
+        font-size: 1rem;
+    }
+
+    .Home {
+        width: 100vw;
+        background-image: url(./img/landing-page.jpg);
+    }
+
+    .Home1{
+        margin: 0;
+        font-size: 3rem;
+    }
+    
+    .Home2{
+        padding-top: 4vh;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .Contact1{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .Gradient2{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        background-image: linear-gradient(360deg, #ececec, #bbbbbb, #808080);
+        z-index: -2;
+    }
+
+    #Contact{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Travelly_Footer {
+        height: 10vh;
+        width: 100vw;
+        background-color: #131c27;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+  }
+
+@media only screen and (max-width: 426px) {
+    .Travelly_Nav{
+        background-color: #131c27;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 20.5vh;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+
+    li a{
+        padding: 1.85rem 2rem 1.85rem 2rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: white;
+        font-family: Poppins;
+        display: flex;
+    }
+
+    .Nav_ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .Logo {
+        padding-top: 2vh;
+    }
+
+    .Home1{
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .Home2{
+        padding-top: 4vh;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .Location2{
+        font-size: 2rem;
+        margin-left: 5vw;
+    }
+    
+    .Location3{
+        margin-top: 7vh;
+        font-size: 1rem;
+        margin-left: 5vw;
+    }
+
+    .Location2 {
+        width: 59vw;
+    }
+
+    #Benefits{
+        height: 225vh;
+        width: 100vw;
+        font-family: Poppins;
+    }
+    
+    .Benefits1{
+        height: 25vh;
+        width: 100vw;
+        background-color: #131c27;
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .Benefits1M{
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    
+    .Benefits1S{
+        font-size: 1rem;
+    }
+    
+    .Benefits2{
+        height: 75vh;
+        width: 100vw;
+        margin-top: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Benefits2-1{
+        width: 90vw;
+        height: 60vh;
+        margin-bottom: 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .Benefits2-1T{
+        height: 13vh;
+        width: 90vw;
+        background-color: #131c27;
+        display: flex;
+        align-items: center;
+        margin-top: 5vh;
+    }
+    
+    .Benefits2-1TI{
+        width: 8vw;
+        height: 8vh;
+    }
+    
+    .Benefits2-1B{
+        height: 47vh;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .B1{
+        margin: 0;
+        padding-top: 3vh;
+        font-size: 2rem;
+    }
+    
+    .B2{
+        margin-top: 3vh;
+        font-size: 1.2rem;
+        width: 90vw;
+        text-align: center;
+    }
+
+    .Contact2-1 {
+        margin: 0;
+        font-size: 1.5rem;
+        color: white;
+        padding-top: 5vh;
+    }
+
+    .label1{
+        color: white;
+        font-size: .7rem;
+        padding-right: 2.5vw;
+    }
+    
+    label{
+        color: white;
+        font-size: .7rem;
+        padding-right: 2vw;
+    }
+    
+    input{
+        font-size: .7rem;
+    }
+
+    .Contact2 {
+        height: 60vh;
+        width: 60vw;
+        background-color: #131c27e2;
+        z-index: 1;
+        border-radius: 2rem;
+        font-family: Poppins;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+  }
+
+  @media only screen and (max-width: 320px) {
+    .Travelly_Nav{
+        background-color: #131c27;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 20vh;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+
+    li a{
+        padding: 1.85rem 1rem 1.85rem 1rem;
+        font-size: 1rem;
+        text-decoration: none;
+        color: white;
+        font-family: Poppins;
+        display: flex;
+    }
+
+    .Nav_ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .Logo {
+        padding-top: 2vh;
+    }
+
+    .Home {
+        width: 100vw;
+        height: 70vh;
+        background-image: url(./img/landing-page.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: Poppins;
+    }
+
+    .Home1{
+        margin: 0;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .Home2{
+        padding-top: 4vh;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .Location2{
+        font-size: 2rem;
+        margin-left: 5vw;
+    }
+    
+    .Location3{
+        margin-top: 7vh;
+        font-size: 1rem;
+        margin-left: 5vw;
+    }
+
+    .Location2 {
+        width: 59vw;
+    }
+
+    #Benefits{
+        height: 225vh;
+        width: 100vw;
+        font-family: Poppins;
+    }
+    
+    .Benefits1{
+        height: 25vh;
+        width: 100vw;
+        background-color: #131c27;
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .Benefits1M{
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    
+    .Benefits1S{
+        font-size: 1rem;
+    }
+    
+    .Benefits2{
+        height: 75vh;
+        width: 100vw;
+        margin-top: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Benefits2-1{
+        width: 90vw;
+        height: 60vh;
+        margin-bottom: 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .Benefits2-1T{
+        height: 13vh;
+        width: 90vw;
+        background-color: #131c27;
+        display: flex;
+        align-items: center;
+        margin-top: 5vh;
+    }
+    
+    .Benefits2-1TI{
+        width: 8vw;
+        height: 8vh;
+    }
+    
+    .Benefits2-1B{
+        height: 47vh;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .B1{
+        margin: 0;
+        padding-top: 3vh;
+        font-size: 2rem;
+    }
+    
+    .B2{
+        margin-top: 3vh;
+        font-size: 1rem;
+        width: 90vw;
+        text-align: center;
+    }
+
+    .Contact2-1 {
+        margin: 0;
+        font-size: 1.5rem;
+        color: white;
+        padding-top: 5vh;
+    }
+
+    .label1{
+        color: white;
+        font-size: .7rem;
+        padding-right: 2.5vw;
+    }
+    
+    label{
+        color: white;
+        font-size: .7rem;
+        padding-right: 2vw;
+    }
+    
+    input{
+        font-size: .7rem;
+    }
+
+    .Contact2 {
+        height: 60vh;
+        width: 60vw;
+        background-color: #131c27e2;
+        z-index: 1;
+        border-radius: 2rem;
+        font-family: Poppins;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+  }
