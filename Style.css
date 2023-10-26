@@ -427,6 +427,12 @@ input{
     .Travelly_Nav{
         width: 100vw;
     }
+
+    .Travelly_Nav{
+        height: 12vh;
+        position: sticky;
+        top: 0;
+    }
     
     .Nav_ul{
         margin-left: 10vw;
